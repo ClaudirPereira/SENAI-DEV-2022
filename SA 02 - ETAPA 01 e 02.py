@@ -1,0 +1,15 @@
+print('.: SA - ETAPA 02 :.')
+print('-' * 50)
+print('Declare as seguintes informações:\nNome \nIdade \nTelefone \nCPF \nRG \nEndereço \nSexo')
+print('-' * 50)
+nome = str(input('Digite Seu Nome: '))
+idade = int(input('Digite Sua Idade: '))
+telefone = str(input('Digite seu Telefone: '))
+cpf = str(input('Digite seu CPF: '))
+rg = str(input('Digite seu RG: '))
+endereco = str(input('Digite seu Endereço: '))
+resultado = str(input('Deseja imprimir na tela o resultado? s/n '))
+if resultado == 's':
+    print(f'Nome: {nome} \nIdade: {idade} \nTelefone: {telefone} \nCPF: {cpf} \nRG: {rg} \nEndereço: {endereco}')
+else:
+    print(f'Cadastro Efetuado com Sucesso! Obrigado pela sua atenção.')
